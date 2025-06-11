@@ -1,0 +1,57 @@
+.Research
+{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    margin: 50px;
+    gap: 10px;
+
+    div 
+    {
+        display: flex;
+        align-items: center;
+        background-color: white;
+        padding: 8px 20px 8px 10px;
+        gap: 10px;
+        border-radius: 5px;
+
+        i 
+        {
+            color: rgb(116, 116, 116);
+        }
+
+        input 
+        {
+            outline: none;
+            border: none;
+            font-family: Raleway;
+
+            &::placeholder
+            {
+                font-family: Raleway;
+            }
+        }
+    }
+
+    button 
+    {
+        border-radius: 5px;
+        padding: 8px 10px 8px 10px;
+        border: none;
+        outline: none;
+        background-color: #CD6819;
+        color: white;
+        font-family: Raleway;
+        font-weight: normal;
+        cursor: pointer;
+
+        &:hover 
+        {
+            background-color: white;
+            color: #CD6819;
+            border: 1px solid #CD6819;
+            font-weight: 600;
+        }
+    }
+}
